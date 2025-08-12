@@ -66,6 +66,9 @@ FROM 'path/to/Customers.csv' CSV HEADER;
 
 COPY Orders(Order_ID, Customer_ID, Book_ID, Order_Date, Quantity, Total_Amount) 
 FROM 'path/to/Orders.csv' CSV HEADER;
+
+
+
 📈 Key Business Use Cases
 Inventory Management → Track stock, restock low-quantity books.
 
